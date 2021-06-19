@@ -1,20 +1,20 @@
 # MuMusicInfo
 MuMusicInfo is an android app to display some songs information.
 
-##Whatg kind of information?
+## Whatg kind of information?
 *Song name.
 *Artist name.
 *An image related to the song or the artist.
 
 
-##Install
+## Install
 as the project is a prctice for my coding knowledge, it is in the debug phase, kindly download the zip file and extract its content then you cant use android studio to view the app and use its functionality.
 
-##Supported SDK version
+## Supported SDK version
          minSdkVersion 16
         targetSdkVersion 30
         
-##Licence
+## Licence
 MIT License
 
 Copyright (c) [2021] [Mostafa Mohammed sayed]

@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -17,18 +19,16 @@ public class JazzActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jazz);
 
-        ArrayList<Song> jazzSongs = new ArrayList<>();
-        Song summerTime = new Song("Dream A Little Dream Of Me","Louis & Ella",R.mipmap.louisella);
-        jazzSongs.add(summerTime);
+        ArrayList<Song> songs = new ArrayList<>();
 
-        TextView songNametextView= (TextView)findViewById(R.id.songName);
-        songNametextView.setText(summerTime.songName);
+        songs.add(new Song("Dream A Little Dream Of Me","Louis & Ella",R.drawable.louisella));
+        songs.add(new Song("New York, New York","Frank Sinatra",R.drawable.franksinatra));
 
-        TextView songArtisttextView= (TextView)findViewById(R.id.artist);
-        songArtisttextView.setText(summerTime.artist);
+        SongAdapter adapter = new SongAdapter(this, songs);
+        ListView listView = (ListView) findViewById(R.id.list);
+        listView.setAdapter(adapter);
 
 
-        ImageView songImageImageView= (ImageView)findViewById(R.id.songImage);
-        songImageImageView.setImageResource(summerTime.image);
+
     }
 }

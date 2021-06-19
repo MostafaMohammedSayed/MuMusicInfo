@@ -14,6 +14,9 @@ as the project is a prctice for my coding knowledge, it is in the debug phase, k
          minSdkVersion 16
         targetSdkVersion 30
         
+## Note:
+there are 2 branches use the master branch please.        
+        
 ## Licence
 MIT License
 
@@ -36,6 +39,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
- 
-note:
-there are 2 branches use the master branch please.

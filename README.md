@@ -1,7 +1,7 @@
 # MuMusicInfo
 MuMusicInfo is an android app to display some songs information.
 
-## Whatg kind of information?
+## What kind of information?
 *Song name.
 *Artist name.
 *An image related to the song or the artist.

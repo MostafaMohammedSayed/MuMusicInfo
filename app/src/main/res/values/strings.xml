@@ -4,6 +4,6 @@
     <string name="jazz_text">jazz</string>
     <string name="blues_text">blues</string>
     <string name="country_text">country</string>
-    <string name="classic_text">classic</string>
+    <string name="classic_text">classical</string>
     <string name="image_description">musicManPic</string>
 </resources>

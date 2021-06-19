@@ -6,4 +6,5 @@
     <dimen name="prompt_user_left_margin">15dp</dimen>
     <dimen name="prompt_user_right_margin">15dp</dimen>
     <dimen name="prompt_bottom_genre">100dp</dimen>
+    <dimen name="musicman_height">300dp</dimen>
 </resources>

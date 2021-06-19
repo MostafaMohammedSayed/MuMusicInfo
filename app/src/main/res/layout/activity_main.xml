@@ -1,49 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_width="match_parent">
 
-    <TextView
-        android:text="@string/prompt_user"
-        style="@style/promptMessage"
-        android:background="@color/purple3"
-        />
-
-    <TextView
-        android:text="@string/jazz_text"
-        style="@style/genreStyle"
-        android:background="@color/purple4"
-        />
-
-    <TextView
-        android:text="@string/blues_text"
-        style="@style/genreStyle"
-        android:background="@color/purple5"
-        />
-
-    <TextView
-        android:text="@string/country_text"
-        style="@style/genreStyle"
-        android:background="@color/purple6"
-        />
-
-    <TextView
-        android:text="@string/classic_text"
-        style="@style/genreStyle"
-        android:background="@color/purple7"
-        />
-
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:src="@drawable/musicman"
-        android:background="@color/black"
-        />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/promptMessage"
+            android:background="@color/purple3"
+            android:text="@string/prompt_user" />
+
+        <TextView
+            android:id="@+id/jazz"
+            style="@style/genreStyle"
+            android:background="@color/purple4"
+            android:text="@string/jazz_text" />
+
+        <TextView
+            android:id="@+id/blues"
+            style="@style/genreStyle"
+            android:background="@color/purple5"
+            android:text="@string/blues_text" />
+
+        <TextView
+            android:id="@+id/country"
+            style="@style/genreStyle"
+            android:background="@color/purple6"
+            android:text="@string/country_text" />
+
+        <TextView
+            android:id="@+id/classic"
+            style="@style/genreStyle"
+            android:background="@color/purple7"
+            android:text="@string/classic_text" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/musicman_height"
+            android:background="@color/black"
+            android:contentDescription="@string/image_description"
+            android:src="@drawable/musicman" />
 
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

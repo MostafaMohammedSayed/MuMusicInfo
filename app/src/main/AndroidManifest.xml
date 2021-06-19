@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMusicInfo">
+        <activity
+            android:name=".ClassicActivity"
+            android:label="@string/classic_text">
+        </activity>
+        <activity android:name=".CountryActivity"
+            android:label="@string/country_text"/>
+        <activity android:name=".BluesActivity"
+            android:label="@string/blues_text"/>
+        <activity
+            android:name=".JazzActivity"
+            android:label="@string/jazz_text" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

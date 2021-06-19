@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyMusicInfo</string>
+    <string name="prompt_user">Welcome. Click on any genre.</string>
+    <string name="jazz_text">jazz</string>
+    <string name="blues_text">blues</string>
+    <string name="country_text">country</string>
+    <string name="classic_text">classic</string>
+</resources>

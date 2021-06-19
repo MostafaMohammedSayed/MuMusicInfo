@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="prompt_user_size">25sp</dimen>
+    <dimen name="prompt_user_top_margin">45dp</dimen>
+    <dimen name="prompt_user_bottom_margin">15dp</dimen>
+    <dimen name="prompt_user_left_margin">15dp</dimen>
+    <dimen name="prompt_user_right_margin">15dp</dimen>
+    <dimen name="prompt_bottom_genre">100dp</dimen>
+</resources>
